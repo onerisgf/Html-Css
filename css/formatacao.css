@@ -1,0 +1,155 @@
+*{                              /* ALTERA TODAS AS TAGS PADRÕES, EX: H1, BODY, P...*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Trebuchet MS", helvetica, sans-serif; 
+}
+
+h2{
+    color:#d82828;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: justify;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    width: 600px;
+    height: 170px;
+    margin-left: 160px;
+}
+
+#topo{
+    background: rgba(255, 255, 255, 0.5);
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#menu{
+    float: right;
+    padding: 10px 0;
+    position: fixed;
+    margin-left: 100px;
+    right: 0px;
+}
+
+#logo{
+    float:left;
+    height: 40px;
+}
+
+#home{
+    margin: 100px 20px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 100px;
+    color: white;
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+}
+
+#area-principal{                        /* AREA ONDE FICA AS PUBLICAÇÕES */
+    width: 800px;
+    margin: 55px auto;
+}
+
+#postagem{
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+
+/****************CLASSES**************/
+
+.posicao-logo{
+    margin-left: 20px;
+}
+
+.vermelho{
+    color: #C91616;
+}
+
+.data-postagem{
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display:block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.img-postagem{
+    float: left;
+    margin: 0 10px 50px 0;
+    width: 140px;
+    height: 140px;
+}
+
+.postado{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.fundo-home{
+    background: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fundo-noticias{
+    background: url("../img/tecnologia/noticias.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fundo-horoscopo{
+    background: url("../img/horoscopo/horoscopo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fundo-economia{
+    background: url("../img/economia/economia.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/**************** LINKS ******************/
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:link{
+    color:#000000;
+}
+
+a:visited{
+    color:#000000;
+}
+
+a:hover{
+    color: #ffffff;
+    background: #d82828;
+    border-radius: 10px;
+}
+
+a:active{
+    color:#000000;
+}
